@@ -94,14 +94,15 @@ nav ul li a:hover:after {
     letter-spacing: 4px;
     display: inline-block;
     margin-bottom: 20px;
-    background-color: linear-gradient(
-        120deg,
-        #1c99fe 20.69%,
-        #7644ff 50.19%,
-        #fd4766 79.69%);
+    background: linear-gradient(
+      120deg,
+      #1c99fe 20.69%,
+      #7644ff 50.19%,
+      #fd4766 79.69%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+  }
 
 .content h1 {
     color: #1f1f25;
